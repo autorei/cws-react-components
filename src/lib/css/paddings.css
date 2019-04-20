@@ -1,0 +1,16 @@
+:root {
+  --padding-xxxs: 4px;
+  --padding-xxs: 8px;
+  --padding-xs: 16px;
+  --padding-sm: 24px;
+  --padding-md: 32px;
+  --padding-lg: 40px;
+  --padding-xl: 48px;
+  --padding-squish-xxxs: 2px 4px;
+  --padding-squish-xxs: 4px 8px;
+  --padding-squish-xs: 8px 16px;
+  --padding-squish-sm: 12px 24px;
+  --padding-squish-md: 16px 32px;
+  --padding-squish-lg: 20px 40px;
+  --padding-squish-xl: 24px 48px;
+}
