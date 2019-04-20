@@ -16,7 +16,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "rm -rf dist && NODE_ENV=production babel src/lib --out-dir dist --copy-files --ignore __tests__,spec.js,test.js,*.test.js__snapshots__",
+    "build": "del-cli dist && NODE_ENV=production babel src/lib --out-dir dist --copy-files --ignore __tests__,spec.js,test.js,*.test.js__snapshots__",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -31,8 +31,9 @@
   ],
   "devDependencies": {
     "@babel/cli": "^7.4.3",
-    "react-scripts": "2.1.8",
+    "del-cli": "^1.1.0",
     "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "react-dom": "^16.8.6",
+    "react-scripts": "2.1.8"
   }
 }
