@@ -16,9 +16,11 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "del-cli dist && NODE_ENV=production babel src/lib --out-dir dist --copy-files --ignore __tests__,spec.js,test.js,*.test.js__snapshots__",
+    "build": "del-cli dist && NODE_ENV=production @babel src/lib --out-dir dist --copy-files --ignore __tests__,spec.js,test.js,*.test.js__snapshots__",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -31,9 +33,15 @@
   ],
   "devDependencies": {
     "@babel/cli": "^7.4.3",
+    "@babel/core": "^7.4.3",
     "del-cli": "^1.1.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-scripts": "2.1.8"
+    "react-scripts": "2.1.8",
+    "@storybook/react": "^5.0.10",
+    "@storybook/addon-actions": "^5.0.10",
+    "@storybook/addon-links": "^5.0.10",
+    "@storybook/addons": "^5.0.10",
+    "babel-loader": "^8.0.5"
   }
 }
