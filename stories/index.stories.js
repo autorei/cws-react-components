@@ -37,9 +37,10 @@ storiesOf('Button', module)
     </>
   ))
   .add('Emoji', () => (
-    <Button onClick={action('clicked')}>
+    <Button>
       <span role="img" aria-label="so cool">
         😀 😎 👍 💯
       </span>
     </Button>
   ))
+  .add('Click Callback', () => <Button onClick={action('clicked')}>Click me</Button>)
