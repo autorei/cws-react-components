@@ -23,6 +23,19 @@ storiesOf('Button', module)
       <Button size="sm">SM Button</Button>
     </>
   ))
+  .add('Variants', () => (
+    <>
+      <Button variant="flat">Flat Button</Button>
+      <Button variant="outline">Outline Button</Button>
+      <Button variant="dashed">Dashed Button</Button>
+      <Button variant="clean">Clean Button</Button>
+      <Button variant="icon">
+        <span role="img" aria-label="so cool">
+          😀
+        </span>
+      </Button>
+    </>
+  ))
   .add('Emoji', () => (
     <Button onClick={action('clicked')}>
       <span role="img" aria-label="so cool">
