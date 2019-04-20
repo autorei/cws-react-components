@@ -1,5 +1,5 @@
 # cws-react-components library
-A library of CWS React Components wrapped by `create-react-app`.
+A library of CWS React Components wrapped by [create-react-app](https://github.com/facebook/create-react-app).
 
 ## Installation
 Run the following command:
