@@ -1,0 +1,67 @@
+:root {
+  --color-primary-100: #e7f4fc;
+  --color-primary-200: #8bcaf0;
+  --color-primary-300: #5cb5ea;
+  --color-primary-400: #2ea0e4;
+  --color-primary-500: #298cdf;
+  --color-primary-600: #1f73b6;
+  --color-primary-700: #165a8e;
+  --color-primary-800: #0d4066;
+  --color-primary-900: #05263d;
+
+  --color-primary-100-contrast: #202020;
+  --color-primary-200-contrast: #202020;
+  --color-primary-300-contrast: #202020;
+  --color-primary-400-contrast: #202020;
+  --color-primary-500-contrast: #fff;
+  --color-primary-600-contrast: #fff;
+  --color-primary-700-contrast: #fff;
+  --color-primary-800-contrast: #fff;
+  --color-primary-900-contrast: #fff;
+
+  --color-secondary-100: #c3bcbd;
+  --color-secondary-200: #a0a0a0;
+  --color-secondary-300: #7b7b7b;
+  --color-secondary-400: #555;
+  --color-secondary-500: #303030;
+  --color-secondary-600: #282828;
+  --color-secondary-700: #1f1f1f;
+  --color-secondary-800: #161616;
+  --color-secondary-900: #0e0e0e;
+
+  --color-secondary-100-contrast: #202020;
+  --color-secondary-200-contrast: #202020;
+  --color-secondary-300-contrast: #fff;
+  --color-secondary-400-contrast: #fff;
+  --color-secondary-500-contrast: #fff;
+  --color-secondary-600-contrast: #fff;
+  --color-secondary-700-contrast: #fff;
+  --color-secondary-800-contrast: #fff;
+  --color-secondary-900-contrast: #fff;
+
+  --color-neutral-100: #fff;
+  --color-neutral-200: #fbfbfb;
+  --color-neutral-300: #f2f2f2;
+  --color-neutral-400: #e8e8e8;
+  --color-neutral-500: #b6b6b6;
+  --color-neutral-600: #868686;
+  --color-neutral-700: #202020;
+
+  --color-error-100: #fdecec;
+  --color-error-200: #f16161;
+  --color-error-300: #ea2305;
+  --color-error-400: #ab1705;
+  --color-error-500: #6b0a04;
+
+  --color-alert-100: #f6e5b9;
+  --color-alert-200: #e9ba45;
+  --color-alert-300: #e1a100;
+  --color-alert-400: #a47600;
+  --color-alert-500: #523b00;
+
+  --color-success-100: #e8f8f0;
+  --color-success-200: #4ac889;
+  --color-success-300: #12b45d;
+  --color-success-400: #0d944d;
+  --color-success-500: #034122;
+}
