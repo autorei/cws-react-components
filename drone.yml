@@ -7,7 +7,16 @@ pipeline:
     commands:
       - npm install
       - npm run build
-      - npm publish
-      - npm run build-storybook
     volumes:
       - /tmp/nodejs/:/root/
+
+  stage-deploy-via-push:
+    image: canaldapeca/drone-builder
+    when:
+      branch: master
+      event: push
+    environment:
+      - AWS_DEFAULT_REGION=us-east-1
+    commands:
+      - npm publish
+      - npm run deploy-storybook
