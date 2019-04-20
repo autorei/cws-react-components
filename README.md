@@ -8,7 +8,7 @@ Run the following command:
 ## Usage
 
 ```js
-import React, { Component } from 'react
+import React, { Component } from 'react'
 import { SomeComponent } from 'cws-react-components'
 
 
