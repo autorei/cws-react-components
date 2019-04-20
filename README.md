@@ -1,5 +1,12 @@
 # cws-react-components library
-A library of CWS React Components wrapped by `create-react-app`.
+A library of CWS React Components wrapped by [create-react-app](https://github.com/facebook/create-react-app).
+
+## Prerequisites
+To usage this component library you need to config your bundle to preprocess [CSS Modules](https://github.com/css-modules/css-modules).
+
+The pattern we use for this is:
+* Common CSS files: `*.css`
+* CSS Modules files: `*.module.css`
 
 ## Installation
 Run the following command:
