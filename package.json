@@ -1,6 +1,6 @@
 {
   "name": "cws-react-components",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "main": "dist/index.js",
   "module": "dist/index.js",
   "files": [
@@ -34,6 +34,10 @@
     "react-scripts": "2.1.8",
     "stylelint": "^10.0.1",
     "stylelint-config-standard": "^18.3.0"
+  },
+  "peerDependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
   },
   "scripts": {
     "start": "react-scripts start",
