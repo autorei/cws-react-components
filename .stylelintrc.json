@@ -2,6 +2,8 @@
     "extends": "stylelint-config-standard",
     "rules": {
         "declaration-no-important": true,
-        "declaration-colon-newline-after": null
+        "declaration-colon-newline-after": null,
+        "no-eol-whitespace": null,
+        "custom-property-empty-line-before": null
     }
 }
